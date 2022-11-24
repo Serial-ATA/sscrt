@@ -24,7 +24,7 @@ rustflags = [
     "-Aclippy::cast_possible_truncation",
     "-Aclippy::module_name_repetitions",
     "-Aclippy::must_use_candidate",
-    "-Aclippy::let_underscore_drop",
+    "-Alet_underscore_drop",
     "-Aclippy::match_wildcard_for_single_variants",
     "-Aclippy::semicolon_if_nothing_returned",
     "-Aclippy::new_without_default",
@@ -40,6 +40,7 @@ rustflags = [
     "-Aclippy::return_self_not_must_use",
     "-Aclippy::bool_to_int_with_if",
     "-Aclippy::uninlined_format_args",
+    "-Aclippy::manual_let_else",
 
     # For Library docs
     # "-Dmissing_docs",
