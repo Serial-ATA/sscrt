@@ -1,4 +1,8 @@
-Serial-ATA/sscrt:
+Serial-ATA/jvm:
   - source: .cargo/config
     template:
-      extra_lints: ""
+      name: "jvm"
+Serial-ATA/lyr:
+  - source: .cargo/config
+    template:
+      name: "none"
