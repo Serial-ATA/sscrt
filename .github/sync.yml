@@ -1,0 +1,4 @@
+Serial-ATA/sscrt:
+  - source: .cargo/config
+    template:
+      extra_lints: ""
