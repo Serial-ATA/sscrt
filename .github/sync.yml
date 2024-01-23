@@ -1,8 +1,0 @@
-Serial-ATA/jvm:
-  - source: .cargo/config
-    template:
-      name: "jvm"
-Serial-ATA/lyr:
-  - source: .cargo/config
-    template:
-      name: "none"

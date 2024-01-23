@@ -49,5 +49,4 @@ rustflags = [
     # "-Aclippy::tabs_in_doc_comments",
 
     #### EXTRAS BELOW ####
-    {% include ["../extra_lints/", name] | join %}
 ]
