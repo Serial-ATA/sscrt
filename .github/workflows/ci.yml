@@ -19,7 +19,7 @@ jobs:
     name: Tests
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - uses: dtolnay/rust-toolchain@v1
         with:
           profile: minimal
@@ -32,7 +32,7 @@ jobs:
     env:
       RUSTDOCFLAGS: -Dwarnings
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - uses: dtolnay/rust-toolchain@v1
         with:
           profile: minimal
@@ -44,7 +44,7 @@ jobs:
     name: Clippy
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - uses: dtolnay/rust-toolchain@v1
         with:
           profile: minimal
@@ -56,7 +56,7 @@ jobs:
     name: Style
     runs-on: ubuntu-latest
     steps:
-      -   uses: actions/checkout@v2
+      -   uses: actions/checkout@v4
       -   uses: dtolnay/rust-toolchain@v1
           with:
             profile: minimal
